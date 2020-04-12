@@ -1,8 +1,9 @@
 
 //witch between pages 
 $('#switchHome').click(function () {
-    $('nav').toggleClass('menu menu_active');
+    // .toggleClass('menu_active');
     window.location.href = 'index.html';
+    $('nav')[0].className = 'menu_active'
 });
 $('#switchEducationandQualification').click(function () {
     window.location.href = 'EducationandQualification.html';

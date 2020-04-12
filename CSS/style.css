@@ -12,6 +12,7 @@
   body {
     background: linear-gradient(to right, #8669d5cf, #545454d6);
     height: 100vh;
+
   }
   
   a {
@@ -23,9 +24,9 @@
     line-height: 1.4;
     font-family: "Space Mono", monospace;
     background: #1d1f20;
-    padding: 25px 35px;
+    padding: 25px 15px;
     width: 300px;
-    top: calc(50vh - 247px);
+    top: calc(40vh - 247px);
     left: calc(50vw - 150px);
     position: fixed;
     border-radius: 16px;
