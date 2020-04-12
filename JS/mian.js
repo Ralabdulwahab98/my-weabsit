@@ -2,7 +2,7 @@
 //witch between pages 
 $('#switchHome').click(function () {
     $('nav').toggleClass('menu menu_active');
-    window.location.href = 'Home.html';
+    window.location.href = 'index.html';
 });
 $('#switchEducationandQualification').click(function () {
     window.location.href = 'EducationandQualification.html';
