@@ -13,11 +13,11 @@
 
 <body>
 
-    <h3 onclick="document.getElementsByTagName('nav')[0].className = 'menu menu_active'">&lt;Raghad/&gt;</h3>
+    <h3 onclick="$('nav').toggleClass('menu menu_active')">&lt;Raghad/&gt;</h3>
 
     <nav class="menu">
 
-        <p onclick="document.getElementsByTagName('nav')[0].className = 'menu'">&lt;close/&gt;</p>
+        <p onclick="$('nav')[0].className = 'menu'">&lt;close/&gt;</p>
         
         <ol>
             <li> About me
@@ -34,13 +34,13 @@
             <li>
                 <a>More</a>
                 <ol class="sub-menu">
-                    <li><a href="EducationandQualification.html" >Education and Qualification</a></li>
-                    <li><a href="Course.html" >Course</a></li>
-                    <li><a href="Experience.html" >Experience</a></li>
-                    <li><a href="Projects.html" >Projects</a></li>
+                    <li><a id="switchEducationandQualification">Education and Qualification</a></li>
+                    <li><a id="switchCourse" >Course</a></li>
+                    <li><a id="switchExperience" >Experience</a></li>
+                    <li><a id="switchProjects" >Projects</a></li>
                 </ol>
             </li>
-            <li><a href="Contact.html" >Contact</a></li>
+            <li><a id="switchContact" >Contact</a></li>
         </ol>
     </nav>
 
