@@ -26,7 +26,7 @@
     background: #1d1f20;
     padding: 25px 15px;
     width: 300px;
-    top: calc(40vh - 247px);
+    top: calc(40vh - 277px);
     left: calc(50vw - 150px);
     position: fixed;
     border-radius: 16px;
@@ -106,7 +106,7 @@
     font-size: 14px;
   }
 
-  .Sub-sub-menu:hover {
+  .sub-menu > li >a:hover {
     cursor: pointer;
     color: #706d6a;
   }
