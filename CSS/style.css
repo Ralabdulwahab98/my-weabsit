@@ -91,7 +91,12 @@
     border-bottom: 2px dotted #cfd8dc;
     padding-bottom: 5px;
   }
-  
+
+.sub-menu {
+    max-height: 400px; /* or any height you want */
+    overflow-y: auto; /* makes it scroll vertically */
+    padding-right: 10px; /* optional, for better looks */
+}
   .Sub-sub-menu{
     font-size: 12px;
     color: #ffffff;
